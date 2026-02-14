@@ -1,3 +1,55 @@
+# Vite React Project
+
+Небольшое приложение на React, собранное с помощью Vite.
+
+Приложение содержит компоненты для отображения списка покемонов, карточек, поиска и страницы деталей (`PokemonList`, `PokemonCard`, `SearchBar`, `PokemonDetails`). Предназначено как демонстрационный пример работы с компонентами, маршрутами и простыми стилями.
+
+**Технологии**
+- Vite
+- React
+- react-router-dom
+- CSS
+
+**Быстрый старт**
+1. Убедитесь, что установлен Node.js (рекомендуется версия LTS).
+2. В корне проекта выполните:
+
+```bash
+npm install
+npm run dev
+```
+
+3. Откройте в браузере: http://localhost:5173 (по умолчанию).
+
+**Доступные скрипты**
+- `npm run dev` — запускает dev-сервер
+- `npm run build` — собирает приложение для продакшена
+- `npm run preview` — просматривает собранный билд локально
+
+**Структура проекта (важное)**
+- `index.html` — HTML-шаблон
+- `vite.config.js` — конфигурация Vite
+- `src/main.jsx` — точка входа
+- `src/App.jsx` — основной компонент и маршруты
+- `src/components/` — компоненты приложения:
+  - `PokemonList.jsx`
+  - `PokemonCard.jsx`
+  - `PokemonDetails.jsx`
+  - `SearchBar.jsx`
+  - `all.css` (стили)
+
+**Использование**
+- Введите текст в поисковой строке — список отфильтруется.
+- Клик по карточке открывает страницу с деталями покемона (react-router).
+
+**Настройка и переменные окружения**
+- Если приложение использует внешний API, добавьте ключи/URL в `.env` (в проекте по умолчанию нет обязательных переменных).
+
+**Вклад в проект**
+- Fork → ветка feature → Pull Request.
+
+**Лицензия**
+- MIT
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

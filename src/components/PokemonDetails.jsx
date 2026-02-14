@@ -19,7 +19,6 @@ function PokemonDetails() {
       <Link to="/" className="back-global">← Back</Link>
 
       <div className="details-layout">
-        {/* LEFT */}
         <div className="left">
           <h1>{pokemon.name}</h1>
           <img
@@ -28,7 +27,6 @@ function PokemonDetails() {
           />
         </div>
 
-        {/* RIGHT */}
         <div className="right">
           <div className="info-block">
             <h3>General</h3>

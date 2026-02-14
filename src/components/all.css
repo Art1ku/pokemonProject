@@ -92,7 +92,6 @@ input[type="text"]:focus {
 
 }
 
-/* LEFT */
 .left {
   flex: 1;
   display: flex;
@@ -117,7 +116,7 @@ input[type="text"]:focus {
   background: #fff;
 }
 
-/* RIGHT */
+
 .right {
   flex: 2;
   background: linear-gradient(145deg, #fff, #dbe6f7);
@@ -138,7 +137,6 @@ input[type="text"]:focus {
   text-transform: uppercase;
 }
 
-/* Stats bars */
 .stat {
   display: grid;
   grid-template-columns: 100px 1fr 40px;
@@ -161,7 +159,7 @@ input[type="text"]:focus {
   border-radius: 6px;
 }
 
-/* Loading screen */
+
 .loading {
   width: 100vw;
   height: 100vh;
@@ -172,7 +170,6 @@ input[type="text"]:focus {
   color: #4a6cf7;
 }
 
-/* ===== Mobile ===== */
 @media (max-width: 768px) {
   .details-layout {
     flex-direction: column;
