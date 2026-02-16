@@ -180,3 +180,85 @@ input[type="text"]:focus {
     max-width: 180px;
   }
 }
+
+
+
+
+@media (max-width: 768px) {
+
+  .details-page {
+    padding: 12px;
+  }
+
+  .back-global {
+    display: inline-block;
+    margin-bottom: 12px;
+    font-size: 14px;
+  }
+
+  .details-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .left,
+  .right {
+    width: 100%;
+  }
+
+  .left {
+    text-align: center;
+  }
+
+  .left h1 {
+    font-size: 22px;
+    margin-bottom: 8px;
+    text-transform: capitalize;
+  }
+
+  .left img {
+    width: 160px;
+    height: auto;
+  }
+
+  .info-block {
+    padding: 12px;
+    border-radius: 12px;
+  }
+
+  .info-block h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+
+  .info-block p {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .stat {
+    display: grid;
+    grid-template-columns: 80px 1fr 40px;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+  }
+
+  .bar {
+    height: 8px;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .fill {
+    height: 100%;
+    border-radius: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .left img {
+    width: 200px;
+  }
+}
